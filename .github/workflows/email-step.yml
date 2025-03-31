@@ -1,0 +1,10 @@
+name: Email Step Workflow
+
+on: [push]
+
+jobs:
+  email-step-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step with email 22f3000676@ds.study.iitm.ac.in
+        run: echo "Action triggered with email in step name"
